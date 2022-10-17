@@ -101,8 +101,6 @@ header {
     perspective-origin: 40% 60%;
   }
   /* 
-    Move the fading to the containing element as to not break inside 3D transforms. 
-    See: https://css-tricks.com/things-watch-working-css-3d/
   */
   from, to {
     opacity: 0;
@@ -119,8 +117,7 @@ header {
     perspective-origin: 40% 60%;
   }
   /* 
-    Move the fading to the containing element as to not break inside 3D transforms. 
-    See: https://css-tricks.com/things-watch-working-css-3d/
+
   */
   from, to {
     opacity: 0;
